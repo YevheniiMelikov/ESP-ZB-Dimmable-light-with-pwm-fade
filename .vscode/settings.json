@@ -1,0 +1,46 @@
+{
+  "idf.portWin": "COM8",
+  "idf.openOcdConfigs": ["board/esp32c6-lpcore-builtin.cfg"],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c6"
+  },
+  "clangd.path": "C:\\Users\\Lorrenzo\\.espressif\\tools\\esp-clang\\16.0.1-fe4f10a809\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\Lorrenzo\\.espressif\\tools\\riscv32-esp-elf\\esp-13.2.0_20240530\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=h:\\Projects\\Zigbee\\esp-zigbee-sdk\\examples\\esp_zigbee_HA_sample\\HA_color_dimmable_light\\build"
+  ],
+  "files.associations": {
+    "*.vhd": "vhdl",
+    "*.yaml": "home-assistant",
+    "esp_zb_light.h": "c",
+    "am2302_rmt.h": "c",
+    "stdio.h": "c",
+    "ledc.h": "c",
+    "esp_err.h": "c",
+    "charconv": "c",
+    "chrono": "c",
+    "optional": "c",
+    "format": "c",
+    "ratio": "c",
+    "system_error": "c",
+    "array": "c",
+    "functional": "c",
+    "tuple": "c",
+    "type_traits": "c",
+    "utility": "c",
+    "esp_zigbee_ha_standard.h": "c",
+    "gpio.h": "c",
+    "string.h": "c",
+    "task.h": "c",
+    "freertos.h": "c",
+    "esp_log.h": "c",
+    "esp_check.h": "c",
+    "nvs_flash.h": "c",
+    "temperature_sensor.h": "c",
+    "temperature_sensor_types.h": "c",
+    "cstdint": "c",
+    "esp_zigbee_zcl_command.h": "c"
+  },
+  "idf.flashType": "UART"
+}
